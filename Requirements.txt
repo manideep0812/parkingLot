@@ -1,0 +1,31 @@
+Requirements for Parking Lot
+
+-Admin
+    -Ticket generation
+    -Update entry/exit details
+    -no of slots available
+    -no of slots remaining
+    -database with all tickets
+-Ticket
+    -UniqueID
+    -in-time
+-Vehicles
+    -separate space for 2 wheelers and 4 wheelers
+-Entry
+    -register ticket
+        -vehicle number
+        -in-time
+    -Update admin
+-Payment
+    -free for first hour
+    -after 1 hour 
+        -0.5rs/min
+-Exit
+    -Ticket collect
+    -out-time
+    -update database
+    -Empty occupied slot
+    -Update admin
+    -Collect Payment
+        -UPI
+        -Card
